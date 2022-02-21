@@ -231,7 +231,7 @@ Other Classes
 
  
 
-3. Hardware Architecture
+# 3. Hardware Architecture
 
  
 
@@ -318,7 +318,7 @@ iv.      Utilisation lock
 
  
 
-4. Software Architecture
+# 4. Software Architecture
 
  
 
@@ -434,7 +434,7 @@ Smart Card OS
 
  
 
-6. Tasks and their priority, action and IPCs
+# 6. Tasks and their priority, action and IPCs
 
  
 
@@ -540,7 +540,7 @@ IPC pending: SemAppl IPC posted: MsgQAppl
 
  
 
-7. Multiple tasks and their synchronization model
+# 7. Multiple tasks and their synchronization model
 
  
 
@@ -589,18 +589,4 @@ We learnt
 
 
  
-Study Material, Lecturing Notes, Assignment, Reference, Wiki description explanation, brief detailEmbedded Systems : Case Study of an Embedded System for Smart Card |
-Related Topics
 
-Embedded Operating System
-Embedded Systems: Integrated Development Environment
-Embedded Development Life Cycle
-EDLC Models
-Trends in Embedded Systems
-Embedded Computing - Introduction
-Challenges in Embedded Computing System Design
-The Embedded System Design Process
-8051 Microcontroller
-ARM processor
-Important Short Questions and Answers: Embedded Computing
-Programming Input and Output in Embedded Systems
