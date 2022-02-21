@@ -1,10 +1,10 @@
-CASE STUDY OF AN EMBEDDED SYSTEM FOR SMART CARD
+# CASE STUDY OF AN EMBEDDED SYSTEM FOR SMART CARD
 
  
 
  
 
-1. Smart Card System Requirementsnts
+# 1. Smart Card System Requirementsnts
 
  
 
@@ -190,12 +190,13 @@ Tested on different host machine versions for fail proof card-host communication
 
  
 
-2. Classes and class diagram
+# 2. Classes and class diagram
 
   
 
 Class diagram
 
+![image](https://user-images.githubusercontent.com/83902823/154886704-6641ec73-192c-41b4-89c2-fe3ac87e66bb.png)
 
 
  
@@ -240,7 +241,8 @@ Smart card hardware
 
 
 
- 
+ ![image](https://user-images.githubusercontent.com/83902823/154886736-03c2d7f1-6271-4744-b297-b8d50d3384e8.png)
+
 
  
 
@@ -558,7 +560,8 @@ tasks and their synchronization model
 
 Coding using VxWorks Adapted toto OSEK-OS Features
 
- 
+ ![image](https://user-images.githubusercontent.com/83902823/154886837-debc6f8b-bd0c-4995-ba80-2b97d6a6994d.png)
+
 
 •Refer Example 12.4 in Section 12.4.5 Note: At each step, explanation for the set of statements given there.
 
