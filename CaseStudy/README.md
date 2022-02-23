@@ -392,7 +392,7 @@ Smart Card Software
 
  
 
-5. SmartOS RTOS used as alternative to MUCOS
+# 5. SmartOS RTOS used as alternative to MUCOS
 
  
 
@@ -554,7 +554,7 @@ tasks and their synchronization model
 
  
 
-8. Coding using SmartOS
+# 8. Coding using SmartOS
 
  
 
