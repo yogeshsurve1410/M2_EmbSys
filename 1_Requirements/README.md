@@ -64,11 +64,21 @@ DLL and API for easy integration into customers’ system.
  ![image](https://user-images.githubusercontent.com/83902823/155761782-5a25df04-4b65-4f8e-9224-c06bef3b6a24.png)
 1000uF 25V Electrolytic Capacitor is a high quality electrolytic capacitor which offers long life and high reliability. Electrolytic Capacitors are most commonly used type of capacitors in Electronic Circuits. Electrolytic Capacitors have 2 Polars - Positive and Negative
 
+5. 10KΩ resistor (2 pieces)
+![image](https://user-images.githubusercontent.com/83902823/155762135-0d6a49e7-73a2-4be8-a475-3a4ca43ac8f9.png)
+Commonly used in breadboards and perf boards, these 10K resistors make excellent pull-ups, pull-downs, and current limiters.A 10k ohm resistor has 4 color band: brown, black, orange, and gold for 5% tolerance, respectively. To determine the value of a given resistor look for the gold or silver tolerance band and rotate the resistor as in the photo on the left.
 
+6. HC-SR04 SENSOR
 
+![image](https://user-images.githubusercontent.com/83902823/155762504-2c7a50e6-ce98-47a5-b5b9-0bc76076092d.png)
 
+![image](https://user-images.githubusercontent.com/83902823/155762536-43353a2f-ff7c-4dce-a748-d4c1a666f8ec.png)
+This is the HC-SR04 ultrasonic distance sensor. This economical sensor provides 2cm to 400cm of non-contact measurement functionality with a ranging accuracy that can reach up to 3mm. Each HC-SR04 module includes an ultrasonic transmitter, a receiver and a control circuit.
 
+There are only four pins that you need to worry about on the HC-SR04: VCC (Power), Trig (Trigger), Echo (Receive), and GND (Ground). You will find this sensor very easy to set up and use for your next range-finding project!
 
+This sensor has additional control circuitry that can prevent inconsistent "bouncy" data depending on the application.
+The HC-SR04 Ultrasonic Distance Sensor is a sensor used for detecting the distance to an object using sonar. ... The HC-SR04 uses non-contact ultrasound sonar to measure the distance to an object, and consists of two ultrasonic transmitters (basically speakers), a receiver, and a control circuit.
 
 
 
