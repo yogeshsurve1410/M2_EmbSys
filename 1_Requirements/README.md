@@ -24,11 +24,17 @@ Here the width of the signal must be taken in multiple of uS(micro second or 10^
 
 # COMPONENT REQUIRED
 
-
+#High level Requirements:
 
 *_Hardware_*: ATMEGA32, Power supply (5v), AVR-ISP PROGRAMMER, JHD_162ALCD (16x2LCD), 1000uF capacitor, 10KΩ resistor (2 pieces) , HC-SR04 sensor.
 
+# Low level Requirements:
+
 *_Software_*: VSCode, SimulIde, Ardunino
+
+
+
+
 
 # 1. ATMEGA32
   
