@@ -19,21 +19,13 @@ else
 endif
 
 Build : $(SRC)
-	gcc $(SRC) -Iinc -Iunity -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
-
+	avr-gcc $(SRC) -Iinc  -o $(call FixPath,$(PROJ_NAME).$(hex)) -lm
+	avr-gcc -Os -DF_CPU=8000000UL -mmcu=atmega32 -c main.c LCD/LCD.c ultrasonic.c timer/timer.c
+	avr-gcc -mmcu=atmega32 *.o -o run
+	avr-objcopy -O ihex -R .eeprom run run.hex
+	avrdude -F -V -c usbasp -p ATMEGA32 -P /dev/ttyACM0 -b 115200 -U flash:w:run.hex
 Run : Build
 	./$(call FixPath,$(PROJ_NAME).$(hex))
-
-static_analysis:
-	cppcheck --enable=all $(SRC)
-
-dynamic_analysis: Build
-	valgrind ./$(call FixPath,$(PROJ_NAME).$(hex))
-
-coverage:
-	gcc -fprofile-arcs -ftest-coverage $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(hex)) -lm
-	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-	gcov -a src/main.c src/timer.c src/ultrasonic.c
 
 Clean:
 	$(RM) $(call FixPath,*.out)
