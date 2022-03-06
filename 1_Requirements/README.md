@@ -141,5 +141,8 @@ This is the HC-SR04 ultrasonic distance sensor. This economical sensor provides 
 
 # Block Diagram
 
-![image](https://user-images.githubusercontent.com/83902823/155760824-b586f56c-3f25-4281-a495-7caaad957f91.png)
+
+
+<img width="1072" alt="ultrasonic" src="https://user-images.githubusercontent.com/83902823/156937902-23215340-3e9b-4ad8-aabf-8de4e15d92d3.PNG">
+
 
