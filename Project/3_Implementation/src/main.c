@@ -1,4 +1,4 @@
-#include  "LCD/LCD.h"
+#include  "LCD.h"
 #include  "ultrasonic.h"
 
 int main(){

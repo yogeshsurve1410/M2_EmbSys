@@ -8,18 +8,9 @@ SRC=src/main.c src/timer.c src/ultrasonic.c
 #Main application file name
 MAIN_APP = main
 
-## For testing
-TEST_MAIN = maintest
-
-TEST_SRC = onlytesting/onlytesting.c\
-src/test_project.c\
-unity/unity.c
-
-TEST_INC = -Iheader\
--Iunity\
 
 #Main hex file path in windows format
-MAIN_HEX_PATH = C:\Users\Lenovo\Desktop\LTTStemp\M2-EmbSys\Project\3_Implementation\src\$(MAIN_APP).hex
+MAIN_HEX_PATH = C:\Users\yoges\VSCODE###\M2_EmbSys\Project\3_Implementation\src\$(MAIN_APP).hex
 
 ifdef OS
    RM = del /q
@@ -49,11 +40,11 @@ HFLAGS = -j .text -j .data -O ihex
 
 
 # Sources files needed for building the application 
-SRC = src/$(MAIN_APP).c src/project.c 
+SRC = src/$(MAIN_APP).c src/ultrasonic.c src/timer.c
 
 
 # The headers files needed for building the application
-INCLUDE = -Iheader/project.h.
+INCLUDE = inc/ultrasonic.h inc/timer.h inc/lcd_config.h inc/timer_config.h inc/LCD.h
 
 # commands Section
 Burn : Build
@@ -67,15 +58,6 @@ $(MAIN_APP).elf: $(MAIN_APP).o
 	
 $(MAIN_APP).o:$(SRC)
 	$(CC) $^ $(INCLUDE) $(CFLAGS) $@
-
-build_test : 
-	gcc $(TEST_SRC) $(TEST_INC) -o $(call FixPath,$(TEST_MAIN).$(EXEC)) -lm
-
-run_test : build_test
-	./$(call FixPath,$(TEST_MAIN).$(EXEC))
-	
-static_analysis:
-	cppcheck --enable=all $(SRC)
 
 clear :
 	rm -r *.o *.elf *.hex *.out

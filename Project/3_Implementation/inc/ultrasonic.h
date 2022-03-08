@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #define F_CPU 8000000UL
 #include <util/delay.h>
-#include "timer/timer.h"
+#include "timer.h"
 
 
 #define   TRIGER_DDR    DDRD
