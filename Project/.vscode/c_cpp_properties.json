@@ -4,7 +4,8 @@
       "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**",
-        "C:\\WinAVR-20100110\\avr\\include"
+        "C:\\WinAVR-20100110\\avr\\include",
+        "C:\\Users\\yoges\\VSCODE###\\M2_EmbSys\\Project\\3_Implementation\\inc"
       ],
       "compilerPath": "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe",
       "cStandard": "${default}",
